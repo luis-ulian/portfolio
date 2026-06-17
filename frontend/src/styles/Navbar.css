@@ -16,7 +16,6 @@
     position: relative;
 
     margin-top: 25px;
-    max-width: 1280px;
 
     font-size: medium;
 }
@@ -36,6 +35,7 @@ ul a {
 
     color:rgba(255, 255, 255, 0.793);
     cursor: pointer;
+    text-decoration: none;
 
     transition: color .3s ease;
 }

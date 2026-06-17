@@ -1,15 +1,13 @@
 import './App.css'
-import {Routes, Route} from "react-router-dom"
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar.tsx'
+import Homepage from './pages/Homepage.tsx'
 function App() {
 
   return (
     <>
       <Navbar/>
-      <div className='border-screen'>
-        
-
-      </div>
+      <Homepage/>
+      <div className='border-screen'/>   
     </>
   )
 }
