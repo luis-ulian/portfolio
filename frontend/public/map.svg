@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="map-svg" viewBox="0 0 1200 680" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Antique map with islands, sea routes, and three cities">
+            <defs>
+              <radialGradient id="paper"><stop stop-color="#e7d9c8"/><stop offset=".68" stop-color="#d6c0ac"/><stop offset="1" stop-color="#8e778e"/></radialGradient>
+              <pattern id="grain" width="73" height="79" patternUnits="userSpaceOnUse"><circle cx="7" cy="9" r="1.3" fill="#67526c" opacity=".12"/><circle cx="45" cy="31" r=".8" fill="#54435b" opacity=".12"/><circle cx="61" cy="63" r="1.1" fill="#f8ede2" opacity=".23"/><path d="M22 49l4-1m25-37l3 2M10 70l4 1" stroke="#614d65" opacity=".1"/></pattern>
+              <pattern id="waves" width="86" height="62" patternUnits="userSpaceOnUse"><path d="M6 32q13-10 26 0t26 0m-40 15q13-10 26 0" fill="none" stroke="#85768e" stroke-width="1" opacity=".17"/></pattern>
+              <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".022" numOctaves="3" seed="3" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="7"/></filter>
+              <filter id="shadow"><feDropShadow dx="3" dy="5" stdDeviation="5" flood-color="#4b3421" flood-opacity=".5"/></filter>
+              <g id="mountain" fill="none" stroke="#735f77" stroke-width="2" stroke-linejoin="round"><path d="M0 30L18 0l19 30M13 9l5 7 5-7M24 30L42 7l18 23M37 14l5 6 5-5"/><path d="M-4 34h68" stroke-width="1"/></g>
+              <g id="tree" fill="none" stroke="#716984" stroke-width="2"><path d="M0 21V2m-9 11 9-11 9 11m-16 5L0 8l7 10M-5 22h10"/></g>
+            <g id="town" fill="#dccab8" stroke="#54435c" stroke-width="2" stroke-linejoin="round"><path d="M-48 27v-31l18-13 18 13v31zm40 0v-45L10-36l18 18v45zm42 0v-29L50-17 66-2v29z"/><path d="M-58 27h132M-36 1v7m18-7v7M3-18v9m9-9v9M46 2v7M-31 27V13h9v14M4 27V7h12v20M45 27V12h10v15" fill="none"/><path d="M-50-4l20-15 20 15m0-14 20-20 20 20m3 16 17-18 18 18" fill="none"/></g></defs>
+            <rect width="1200" height="680" fill="url(#paper)"/>
+            <rect width="1200" height="680" fill="url(#grain)"/>
+            <rect width="1200" height="680" fill="url(#waves)"/>
+            <g fill="none" stroke="#5d4b61" opacity=".28"><rect x="21" y="20" width="1158" height="640" stroke-width="2"/><rect x="28" y="27" width="1144" height="626"/><path d="M43 41h1114v598H43z" stroke-dasharray="2 9"/></g>
+            <g fill="#826b8e" opacity=".22"><path d="M0 0h135l-28 34-79 2L0 103zM1096 0h104v86l-44-37-40-12zM0 580l97 24 33 76H0zM1070 680l40-61 90-19v80z"/></g>
+            <g fill="#897e93" opacity=".2" stroke="#6a5d75" stroke-width="2"><path d="M-20 410q89-24 181 17t133 12q60-34 151-4t182-18q109-47 186 7t172-12q84-41 238 17" fill="none"/><path d="M-20 433q89-24 181 17t133 12q60-34 151-4t182-18q109-47 186 7t172-12q84-41 238 17" fill="none"/></g>
+            <g filter="url(#shadow)">
+              <path d="M72 190q45-63 114-51l46-31 68 18 37-14 52 21 28 49 40 18-4 55-48 31-9 53-45 21-54-17-41 19-40-21-68 4-52-40-47-13-16-48z" fill="#8f8390" stroke="#62546b" stroke-width="5" filter="url(#rough)"/>
+              <path d="M77 190q44-63 112-50l47-30 65 19 37-14 50 22 26 46 40 20-3 50-49 31-10 52-43 20-52-16-42 18-39-20-65 5-51-40-48-13-15-46z" fill="#dbccbb" stroke="#66536b" stroke-width="3"/>
+              <path d="M489 138q50-30 102-10l33-28 65 9 37-18 68 14 40 37 59-1 35 37-24 42 16 35-25 43-56 14-39 39-67-7-49 28-55-27-50 7-41-40-42-7-18-59-25-35z" fill="#918492" stroke="#685875" stroke-width="5" filter="url(#rough)"/>
+              <path d="M492 141q51-30 100-10l32-27 63 9 39-18 66 14 39 38 59-2 34 36-22 39 14 36-25 40-55 14-40 37-64-6-49 27-55-25-48 6-39-38-42-7-17-56-25-34z" fill="#d9c8b9" stroke="#68546d" stroke-width="3"/>
+              <path d="M717 399q50-40 99-22l51-28 44 18 55-7 49 28 25 47 46 13 18 55-38 34-9 54-53 10-31 29-64-12-44 21-58-31-41 2-44-36-19-51-35-33 11-49z" fill="#8b8191" stroke="#62576f" stroke-width="5" filter="url(#rough)"/>
+              <path d="M720 401q47-37 97-21l51-28 43 19 54-8 47 28 25 47 45 12 18 52-37 33-10 52-51 9-31 28-61-12-44 20-56-30-41 2-42-35-18-50-36-32 11-45z" fill="#d8c6b5" stroke="#695b3a" stroke-width="3"/>
+            </g>
+            <g fill="none" stroke="#78647a" stroke-width="2" opacity=".5"><path d="M101 210q58-58 130-48t136 2M87 271q85 42 133 10t142 19M120 329q81-39 135-7t104-14M525 155q95-42 164-20t155 18M514 228q81-25 143 11t187-33M564 293q105-23 154 29t145-43M749 432q80-61 145-36t154 62M742 510q97-47 157 1t162-1M797 573q78-43 138 12t120-17"/></g>
+            <g opacity=".85"><use href="#mountain" x="135" y="205"/><use href="#mountain" x="208" y="180" transform="translate(20 5) scale(.75)"/><use href="#mountain" x="550" y="181"/><use href="#mountain" x="666" y="152"/><use href="#mountain" x="755" y="470"/><use href="#mountain" x="948" y="430"/><use href="#tree" x="124" y="288"/><use href="#tree" x="150" y="306"/><use href="#tree" x="350" y="234"/><use href="#tree" x="547" y="267"/><use href="#tree" x="839" y="533"/><use href="#tree" x="896" y="556"/><use href="#tree" x="1019" y="487"/></g>
+            <g fill="none" stroke="#71566f" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5 9" opacity=".8"><path d="M305 331C394 378 481 283 668 248"/><path d="M672 250C798 282 792 394 889 481"/><path d="M310 337C394 488 654 556 885 488"/></g>
+            <g transform="translate(458 514) rotate(-15)" fill="none" stroke="#69556f" stroke-width="2" opacity=".68"><path d="M0 0q33-6 70 0l-7 11H12zM31-3v-44m1 1 27 31H32zM28-37 8-13h20z"/><path d="M15 17q17-7 34 0m-48 8q19-7 35 0"/></g>
+            
+          <g opacity=".76"><use href="#town" x="295" y="321"/><use href="#town" x="674" y="246"/><use href="#town" x="890" y="486"/></g></svg>
